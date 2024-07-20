@@ -1,0 +1,21 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-read --allow-net --allow-env --allow-sys --allow-write --allow-run main.ts",
+    "run": "deno run --allow-read --allow-net --allow-env --allow-sys --allow-write --allow-run main.ts"
+  },
+  "imports": {
+    "@effect/schema": "npm:@effect/schema@^0.68.0",
+    "@std/dotenv": "jsr:@std/dotenv@^0.224.0",
+    "@std/log": "jsr:@std/log@^0.224.2",
+    "config": "https://deno.land/x/config@v1.3.0/mod.ts",
+    "date-fns": "npm:date-fns@3.6.0",
+    "effect": "npm:effect@^3.3.4",
+    "gaxios": "npm:gaxios@^6.6.0",
+    "google-auth-library": "npm:google-auth-library@^9.10.0",
+    "googleapis": "npm:googleapis@^137.1.0",
+    "grammy": "https://deno.land/x/grammy@v1.24.0/mod.ts",
+    "grammy-types": "https://deno.land/x/grammy_types@v3.8.0/mod.ts",
+    "logger": "jsr:https:@0.224.0/log/mod.ts//deno.land/std",
+    "puppeteer": "npm:puppeteer@22.10.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "imports": {
+    "@oak/oak": "jsr:@oak/oak@^16.1.0",
+    "effect": "npm:effect@^3.3.1",
+    "hono": "jsr:@hono/hono@^4.4.5"
+  },
+  "tasks": {
+    "start": "deno serve main.ts"
+  },
+  "compilerOptions": {
+    "jsx": "precompile",
+    "jsxImportSource": "hono/jsx"
+  }
+}
